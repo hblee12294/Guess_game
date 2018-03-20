@@ -1,0 +1,11 @@
+.App {
+	width: 40%;
+	color: #111;
+	margin: 25px auto;
+  	text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

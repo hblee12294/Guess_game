@@ -3,7 +3,7 @@ import './Billboard.css';
 
 const Billboard = ({count, winStatus}) => {
 	const message = {
-		win: `Bingo! You win in ${count} turns`,
+		win: `Congratulations! You win in ${count} turns`,
 		count: `${count} of turns taken`
 	}
 

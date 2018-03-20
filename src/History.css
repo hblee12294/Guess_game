@@ -1,7 +1,8 @@
+
 /* Style for History */
 
 .history {
-	width: 50%;
+	width: 75%;
 	height: 320px;
 	padding: 0 10px 20px;
 	margin: 15px auto;
@@ -39,8 +40,6 @@
 }
 
 .record:last-child {
-	color: white;
-	background-color: black;
 	border: 1px solid #111;
 	border-radius: 15px;
 }

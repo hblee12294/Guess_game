@@ -6,12 +6,12 @@ const History = ({records}) => {
 		<div className="placeholder">
 			Previous guessed words and number of hit letters will be recorded here.
 		</div>
-	);
+		);
 
 	const recordsList = records.map( (record, index) => {
 		return (
 			<div className="record" key={index}>
-				<span>{index+1}</span>
+				<span>{index}</span>
 				<span>{record.guess}</span>
 				<span>{record.similar}</span>
 			</div>
@@ -30,6 +30,6 @@ const History = ({records}) => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default History;
