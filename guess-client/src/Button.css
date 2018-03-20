@@ -1,0 +1,20 @@
+/* Style for Button */
+
+button {
+	color: #111;
+	border: 2px solid #111;
+	border-radius: 6px;
+	outline: none;
+	background-color: white;
+	font-family: Times New Roman;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+button:hover {
+	color: white;
+	background-color: #111;
+	border: 2px solid #111;
+}

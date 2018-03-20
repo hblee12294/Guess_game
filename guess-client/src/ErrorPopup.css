@@ -1,0 +1,38 @@
+/*Style for ErrorPopup*/
+
+.error-popup {
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.mask {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.popup {
+	padding: 20px 30px 25px;
+	position: fixed;
+	top: 30%;
+	left: 25%;
+	right: 25%;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.popup span {
+	display: block;
+	color: #111;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.popup-change {
+	display: block;
+}
